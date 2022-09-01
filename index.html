@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./css/normalize.css?jv=20220831">
+  <link rel="stylesheet" href="./css/index.css?jv=20220901">
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js?jv=20220831"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js?jv=20220831"></script>
+  <script>
+    //设置 webview 字体大小不受系统修改而改变
+    (function () {
+        if (window.HiSpaceObject) {
+            window.HiSpaceObject.setTextSizeNormal();
+        }
+    })();
+</script>
+</head>
+
+<body>
+  <div id="root">
+  </div>
+  <script src="./js/index.js?jv=20220831"></script>
+</body>
+
+</html>
